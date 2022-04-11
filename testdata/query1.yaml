@@ -1,0 +1,6 @@
+title: Valid App 1
+company: Random Inc.
+maintainers:
+  - name: firstmaintainer app1
+release:
+  name: xyz
