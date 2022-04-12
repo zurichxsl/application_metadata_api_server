@@ -1,5 +1,8 @@
 #Application Metadata API Server
 
+This API Server includes both an in-memory data store and a HTTP server. (the in-memory data store will be wiped out after HTTP server restart)
+Ideally in a production environment, we should separate stateful data store (and persist the data) and stateless HTTP server, so they can scale independently.
+It is also ideal we can have an independent global generate-id microservice that can generate unique app id in distributed system.
 
 ## Workflow
 
